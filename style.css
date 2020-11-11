@@ -1,0 +1,323 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+body
+{
+    background-color: #f0f0f5;
+    display: flex; 
+    flex-direction: row;
+    
+}
+header
+{background-color: white;
+ width: 20%;
+ border-radius: 5%;
+ margin-top: 30px;
+ height: 900px; 
+ margin-left: 50px;
+ 
+ 
+
+}
+.icon-twitter img
+{
+    border-radius: 5%;
+    padding-top: 15px;
+    padding-left:20px;
+
+}
+.fa-twitter
+{
+    font-size: 35px ;
+    display: flex;
+    color:rgba(29,161,242,1.00);
+    margin: 30px;
+    justify-content: center;
+    border-radius: 100%;
+    width: 10%;
+    /*height:100%;*/
+    padding-top:5px;
+}
+
+
+
+.hav-head
+{
+    padding-top: 5px;
+    padding-left:35px;
+    display: flex;
+    
+
+}
+.hav-head ul
+{
+    list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.nav-head i
+{
+  font-size: 28px;
+  padding-bottom: 28px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.nav-head a
+{
+  font-size: 24px;
+  padding-left: 20px;
+  padding-bottom: 28px;
+  text-decoration: none;
+  color: black;
+}
+.hav-head li:hover
+{
+    border-radius: 25%;
+    border: none;
+    background-color: rgb(212, 161, 218);
+}
+.upload>input {
+    display: none;
+  }
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    
+    border: 0.1px solid white;
+    background: #f1f1f1;
+  }
+  form.example {
+     margin: 10px;
+     border-radius: 10%;
+     
+  }
+  
+.section-1
+{
+    display: flex;
+    flex-direction: column;
+    width:580px;
+    height:auto ;
+    margin-top: 30px;
+    margin-left: 35px;
+
+
+}
+.nav-option
+{
+height:50px;
+
+background-color: white;
+margin-bottom: 10px;
+
+font-size: 25px;
+font-weight: bold;
+font-family: 'Ubuntu', sans-serif;
+border-radius: 5%;
+display: flex ;
+padding: 10px 0px 0px 20px;   
+
+}
+
+.section_b
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /*margin: 15px;*/
+    border-radius: 5%;
+    
+
+}
+
+.area-tweet
+{
+    display: flex ;
+    flex-direction: row;
+    padding-top: 25px;
+    
+}
+.imgg
+{
+    width: 500px;
+    display: flex;
+    flex-direction:column;
+}
+#area_tweet1
+{
+    
+    width:450px ;
+    height:140px ;
+    /*border:5px solid rgb(128, 125, 125);*/
+    resize: none;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+    margin-right: 15px;
+        
+}
+.area-tweet img
+{
+ width: 50px;
+ height:50px ;
+ border-radius:50%;
+ position:relative;
+ display: flex;
+ justify-content: flex-start;
+ margin: 10px;
+}
+#btn-tweet
+{
+    height:30px ;
+    width: 130px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    font-size: 18px;
+    justify-content: center ;
+    
+    float:right;
+    background-color: rgb(212, 161, 218);
+   margin: 15px 60px 5px 0px ;
+}
+.fa-smile ,.fa-image ,.fa-calendar-alt
+{
+    font-size:25px ;
+    color:rgb(212, 161, 218);
+   
+    background-color: white;
+    padding: 15px 0px 0px 15px ;
+    border: none;
+}
+.fa-smile
+{
+    padding-left:100px ;
+}
+
+#new-area
+{
+    background-color: white;
+    height: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-top:15px ;
+    
+}
+.user_cat
+{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+    margin-top:15px ;
+    margin-left:15px;
+    
+    
+}
+.img-pro img 
+{
+    width: 50px;
+ height:50px ;
+ border-radius:50%;
+ 
+ 
+ 
+ margin-left: 40%;
+ margin-top: 15px;
+ 
+ 
+}
+
+.info-user
+{
+    display:flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+
+}
+#user_name
+{
+    color:rgb(124, 122, 122);
+}
+.profile-btn
+{
+    height:30px ;
+    width: 130px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(212, 161, 218);
+    margin-top: 15px;
+    margin-left: 30%;
+    margin-bottom: 5px;
+
+}
+.f2{
+    background-color: white;
+    color:rgb(108, 36, 116);
+    font-weight: bold;
+}
+.btn-s
+{
+    background-color: white;
+        border: none;
+        
+        
+        cursor: pointer;
+}
+.section2
+{
+   display: flex;
+   flex-direction: column; 
+   margin-left: 30px;
+   margin-top: 20px;
+
+}
+.follow
+{    display: flex;
+    flex-direction: column;
+
+}
+.u2
+{
+    display: flex;
+    padding-top:20px;
+    padding-left: 20px;
+}
+#name_user
+{
+  font-weight: bold;
+}
+
+.u3
+{
+    font-size: 18px;
+    font-weight: bold; 
+    border-bottom: 0.1px solid rgb(199, 196, 196);
+    height: 35px;
+    display: flex;
+    justify-content:center;  
+    padding-top: 10px;
+}
+
+.u4
+{
+
+    display:flex;
+    flex-direction: row;
+}
+.info2
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
