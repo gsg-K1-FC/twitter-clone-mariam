@@ -1,3 +1,5 @@
 
-# twitter-clone-mariam
- oreo website  :A social networking site that allows a user to have short posts of up to 300 characters called tweets. It also allows the user to send messages between his friends. The user can follow other people and see their tweets, like them and share them.
+#Oreo-clone-mariam
+Oreo site: Its purpose is to publish tweets.
+
+The site allows the user to post his tweets with the addition of the picture, and like other tweets, it is also possible to share the tweet
